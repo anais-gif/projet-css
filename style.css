@@ -1,0 +1,27 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+.background_header{
+    background: url("img/background_header.png");
+    min-height: 1080px;
+    min-width: 100%;
+    
+}
+ #navigation{
+     color:white;
+    width: 100%;
+     list-style-type: none; 
+     margin: 0;
+     padding: 0;
+
+ }
+  ul{
+     display: flex;
+    justify-content: center;
+  }
+  a{
+      font-size: 20px;
+      color: white;
+  }
