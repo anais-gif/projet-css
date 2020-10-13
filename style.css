@@ -25,3 +25,61 @@ padding: 0;
       font-size: 20px;
       color: white;
   }
+
+
+
+
+  
+#middle{
+    display:flex;
+    flex-wrap: wrap;
+
+
+}
+
+  .fulltext{
+      width:50%;
+      display: flex;
+    background-color: #222222;
+    color: white;
+flex-wrap: wrap;
+}
+
+.box{
+   width:50%; 
+   overflow: hidden;
+  
+}
+
+.text2{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.text3{
+    margin-top: 200px;
+    margin-left: 40px;
+}
+.text4{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -100px;
+}
+
+
+
+
+
+
+
+
+
+.fulltext2{
+    width:50%;
+      display: flex;
+    background-color: #f3f3f3;
+    color: #222222;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-wrap: wrap;
+}
