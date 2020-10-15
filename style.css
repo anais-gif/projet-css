@@ -13,7 +13,6 @@ height: auto;
 
 }
 
-<<<<<<< HEAD
 @font-face {
     font-family: 'gothambold';
     src: url('fonts/gothambold-webfont.woff2') format('woff2'),
@@ -49,10 +48,8 @@ height: auto;
 .background_header{
     background: url("img/background_header.png");
     min-height: 1080px;
-=======
 .background_header {
     height: 875px;
->>>>>>> origin/anais
     min-width: 100%;
     position: relative;
     background-image: url(img/background_header.png);
@@ -190,6 +187,14 @@ h4:hover{
     font-family: 'gothambook';
 }
 
+.kyll{
+    color:#db5971 ;
+}
+
+.luky{
+
+    color: black;
+}
 #slider{float: left; width:15%; height: auto;}
 
 
