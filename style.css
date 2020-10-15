@@ -5,6 +5,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'gothambook';
+    src: url('font/gothambook-webfont.woff2') format('woff2'),
+    url('font/gothambook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
 body{
 margin: 0;
 padding: 0;
@@ -13,46 +22,8 @@ height: auto;
 
 }
 
-<<<<<<< HEAD
-@font-face {
-    font-family: 'gothambold';
-    src: url('fonts/gothambold-webfont.woff2') format('woff2'),
-         url('fonts/gothambold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'gothambook';
-    src: url('fonts/gothambook-webfont.woff2') format('woff2'),
-         url('fonts/gothambook-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'gothamlight';
-    src: url('fonts/gothamlight-webfont.woff2') format('woff2'),
-         url('fonts/gothamlight-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'gothammedium';
-    src: url('fonts/gothammedium-webfont.woff2') format('woff2'),
-         url('fonts/gothammedium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-.background_header{
-    background: url("img/background_header.png");
-    min-height: 1080px;
-=======
 .background_header {
     height: 875px;
->>>>>>> origin/anais
     min-width: 100%;
     position: relative;
     background-image: url(img/background_header.png);
@@ -163,6 +134,47 @@ h4:hover{
   
 }
 
+
+h4 {
+    text-transform: uppercase;
+    font-family:  gothamblack;
+    color: white;
+}
+p {
+    display: block;
+   font-size: 10px;
+    font-family: gothamblack;
+    color: white;
+    line-height: 18px;
+   margin: 5px;
+    text-align: center;
+    align-content: center;
+}
+.icone_one::before {
+    content: url(img/icone_one.png);
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.icone_two::before {
+    content: url(img/icone_two.png);
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.icone_three::before {
+    content: url(img/icone_three.png);
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.icone_four::before {
+    content: url(img/icone_four.png);
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
 .colone {
     display: grid;
     grid-template-columns: 15% 15% 15% 15%;
@@ -170,15 +182,7 @@ h4:hover{
     justify-content: center;
 }
 
- }
-  ul{
-     display: flex;
-    justify-content: center;
-  }
-  a{
-      font-size: 20px;
-      color: white;
-  }
+  
   .main {
     display:flex;
     justify-content: space-between;
@@ -224,8 +228,13 @@ width: 20%; height: auto; float: left;
   95% { left: -300%; }
   100% { left: -400%; }
 }
+.titre-red{
+    color:#db5971; 
+}
+.hiill{
 
-
+    color:black;
+}
 .zak{
   display: flex;
   flex-direction: row;
@@ -275,223 +284,3 @@ width: 20%; height: auto; float: left;
 
 
 
-
-@font-face {
-  font-family: 'gothambook';
-  src: url('font/gothambook-webfont.woff2') format('woff2'),
-  url('font/gothambook-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-h4 {
-    text-transform: uppercase;
-    font-family:  gothamblack;
-    color: white;
-}
-p {
-    display: block;
-   font-size: 10px;
-    font-family: gothamblack;
-    color: white;
-    line-height: 18px;
-   margin: 5px;
-    text-align: center;
-    align-content: center;
-}
-.icone_one::before {
-    content: url(img/icone_one.png);
-    display: flex;
-    justify-content: center;
-    margin: 40px;
-}
-.icone_two::before {
-    content: url(img/icone_two.png);
-    display: flex;
-    justify-content: center;
-    margin: 40px;
-}
-.icone_three::before {
-    content: url(img/icone_three.png);
-    display: flex;
-    justify-content: center;
-    margin: 40px;
-}
-.icone_four::before {
-    content: url(img/icone_four.png);
-    display: flex;
-    justify-content: center;
-    margin: 40px;
-}
-@font-face {
-    font-family: 'gothamblack';
-    src: url('fonts/gotham-black-webfont.woff2') format('woff2'),
-         url('fonts/gotham-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-body{
-margin: 0;
-padding: 0;
-width: 100%;
-height: auto;
-
-}
-
-.background_header {
-    height: 875px;
-    min-width: 100%;
-    position: relative;
-    background-image: url(img/background_header.png);
-}
-.navigation {
-    width: 100%;
-    list-style-type: none;
-    color: rgb(125, 125, 125);
-    height: 113px;
-    font-family: gothamblack;
-    margin: 0px;
-    padding: 0px;
-    border-bottom: solid;
-}
-.menu{
-    display: none;
-}
-ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.logo {
-    
-    position: absolute;
-    top: 20px;
-    left: 50px;
-    
-}
-.le_titre_creatives {
-    position: absolute;
-    z-index: 1;
-    text-align: center;
-    width: 100%;
-    top: 40%;
-    font-size: 100Px;
-    text-transform:uppercase;
-    color: white;
-    font-family: gothamblack;
-    
-}
-.ellipse{
-    display: block;
-    position: absolute;
-    top: 731px;
-    width: 100%;
-    text-align: center;
-}
-.scroll_down {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    font-size: 10px;
-    color: white;
-    top: 700px;
-    font-family: gothamblack;
-}
-a{
-    font-size: 16px;
-    font-weight: normal;
-    color: white;
-    height: 116px;
-    align-content: center;
-    margin: 20px;
-    text-decoration: none;
-   
-    
-}
-a:hover{
-    border-bottom: solid #db5971;
-padding-bottom: 45px;
-color: #db5971;
-opacity: 0.80;
-transition: 0.5s;
-}
-h4:hover{
-    opacity: 0.50;
-}
-    
-.background_color_red {
-    background-color: rgb(210, 18, 66);
-    height: 700px;
-}
-.we_are {
-    height: 400px;
-    font-size: 50px;
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    z-index: 2;
-    position: relative;
-    color: white;
-    font-family: gothamblack;
-}
-.w {
-    justify-content: center;
-    width: 100%;
-   position: absolute;
-   top: 890px;
-    z-index: 1;
-    text-transform: uppercase;
-    font-family: gothamblack;
-    color: #db5971;
-    font-size: 330px;
-   text-align: center;
-  
-}
-
-.colone {
-    display: grid;
-    grid-template-columns: 15% 15% 15% 15%;
-    text-align: center;
-    justify-content: center;
-}
-
-h4 {
-    text-transform: uppercase;
-    font-family:  gothamblack;
-    color: white;
-}
-p {
-    display: block;
-   font-size: 10px;
-    font-family: gothamblack;
-    color: white;
-    line-height: 18px;
-   margin: 5px;
-    text-align: center;
-    align-content: center;
-}
-.icone_one::before {
-    content: url(img/icone_one.png);
-    display: flex;
-    justify-content: center;
-    margin: 40px;
-}
-.icone_two::before {
-    content: url(img/icone_two.png);
-    display: flex;
-    justify-content: center;
-    margin: 40px;
-}
-.icone_three::before {
-    content: url(img/icone_three.png);
-    display: flex;
-    justify-content: center;
-    margin: 40px;
-}
-.icone_four::before {
-    content: url(img/icone_four.png);
-    display: flex;
-    justify-content: center;
-    margin: 40px;
-}
