@@ -165,7 +165,6 @@ h4:hover{
     justify-content: center;
 }
 
- }
   ul{
      display: flex;
     justify-content: center;
@@ -490,37 +489,6 @@ p {
     justify-content: center;
     margin: 40px;
 }
-@font-face {
-    font-family: 'gothambold';
-    src: url('fonts/gothambold-webfont.woff2') format('woff2'),
-         url('fonts/gothambold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'gothambook';
-    src: url('fonts/gothambook-webfont.woff2') format('woff2'),
-         url('fonts/gothambook-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'gothamlight';
-    src: url('fonts/gothamlight-webfont.woff2') format('woff2'),
-         url('fonts/gothamlight-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'gothammedium';
-    src: url('fonts/gothammedium-webfont.woff2') format('woff2'),
-         url('fonts/gothammedium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 .background_header{
     background: url("img/background_header.png");
@@ -606,7 +574,7 @@ flex-wrap: wrap;
     overflow: hidden;
 }
 
-.b{
+.grandb{
     margin-top: 150px;
     text-align: center;
 
@@ -685,7 +653,7 @@ flex-wrap: wrap;
     overflow: hidden;
 }
 
-.b{
+.grandb{
     margin-top: 150px;
     text-align: center;
 
@@ -768,7 +736,7 @@ flex-wrap: wrap;
         overflow: hidden;
     }
     
-    .b{
+    .grandb{
         margin-top: 150px;
         text-align: center;
     
