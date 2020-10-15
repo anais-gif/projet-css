@@ -57,245 +57,107 @@ padding: 0;
       font-size: 20px;
       color: white;
   }
-
-#middle{
+  .main {
     display:flex;
-    flex-wrap: wrap;
-
-}
-
-  .fulltext{
-     width:50%;
-      display: flex;
-    background-color: #222222;
-    color: white;
-flex-wrap: wrap;
-}
-
-.box{
-   width:50%; 
-   height: 100%;
-   overflow: hidden;
-  
-}
-
-.text2{
-    font-family:'gothamlight';
-    margin-top: 100px;
-    margin-left: 110px;
-
-
-}
-.text3{
+    justify-content: space-between;
+    margin-right:5px;
+    border-radius: .5em;
+    padding: 10px;
+    margin: 10em;
+    text-align:center;
     font-family: 'gothambook';
-    margin-top: 130px;
-    margin-left: -190px;
-    margin-bottom: 70px;
-    font-size: 25px;
-    text-transform: uppercase;
 }
-.text4{
-    font-family:'gothamlight' ;
-    margin-left: 110px;
-    margin-right: 110px;
-    margin-top: -120px;
-    line-height: 25px;
+
+#slider{float: left; width:15%; height: auto;}
+
+
+.slider img{max-height:290px}
+
+#slider figure {
+  position: relative; 
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+  animation: 25s slidy infinite;
+}
+
+#slider figure img {
+
+width: 20%; height: auto; float: left; 
+
+}
+
+#slider { width: 93%; max-width: 1000px; overflow: hidden }
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
 }
 
 
-.fulltext2{
-    width:50%;
-      display: flex;
-    background-color: #f3f3f3;
-    color: #222222;
-
-flex-wrap: wrap;
+.zak{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #d21242;
+  height: 353px;
+  padding: 10px ;
 }
-.box2{
-    width:50%; 
-    overflow: hidden;
+.picture-left{
+  position: relative;
+  margin-left: 200px;
 }
-
-.b{
-    margin-top: 150px;
-    text-align: center;
-
-}
-.letsblog{
-    font-family: 'gothambook';
-    text-transform: uppercase;
-    margin-top: -148px;
-    font-size: 35px;
-    text-align: center;
-    justify-content: center;
-}
-.phrasefinish{
-    font-family:'gothambook';
-    text-align: center;
-    margin-top: 150px;
-    font-size: 25px;
-}
-
-
-
-
-@media screen and (min-width: 1024px) {
-     
-    #middle{
-        display:flex;
-        flex-wrap: wrap;
-    
-    }
-    .fulltext{
-        width:50%;
-         display: flex;
-       background-color: #222222;
-       color: white;
-   
-   }
-   
-   .box{
-      width:50%; 
-      height: 100%;
-      overflow: hidden;   
-   }
-   
-.text2{
-    font-family:'gothamlight';
-    margin-top: 70px;
-    margin-left: 110px;
-
+.ki {
+  position: absolute;
+  margin-left:300px;
+  text-align: left;
 
 }
-.text3{
-    font-family: 'gothambook';
-    margin-top: 110px;
-    margin-left: -190px;
-    margin-bottom: 120px;
-    font-size: 25px;
-    text-transform: uppercase;
+.picture-leftt{
+  position: relative;
+  margin-left: 650px;
 }
-.text4{
-    font-family:'gothamlight' ;
-    margin-left: 110px;
-    margin-right: 110px;
-    margin-top: -120px;
-    line-height: 25px;
-}
-.fulltext2{
-    width:50%;
-      display: flex;
-    background-color: #f3f3f3;
-    color: #222222;
-
-flex-wrap: wrap;
-}
-.box2{
-    width:50%; 
-    overflow: hidden;
-}
-
-.b{
-    margin-top: 150px;
-    text-align: center;
+.ka {
+  position: absolute;
+  margin-left:1020px;
+  text-align: left;
 
 }
-.letsblog{
-    font-family: 'gothambook';
-    text-transform: uppercase;
-    margin-top: -148px;
-    font-size: 35px;
-    text-align: center;
-    justify-content: center;
+.sim{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  height: 109px;
+  padding: 10px ;
 }
-.phrasefinish{
-    font-family:'gothambook';
-    text-align: center;
-    margin-top: 150px;
-    font-size: 25px;
+.soh {
+  position: absolute;
+  margin-left:250px;
+  text-align: left;
 }
+.myr {
+  position: absolute;
+  margin-left:1200px;
+  text-align: left;
 }
 
 
 
 
-@media screen and (max-width: 815px) {
-    #middle{
-        display: flex;
-        flex-wrap: wrap;
-        display: initial;
-        
-    
-    }
-    
-      .fulltext{
-         width:100%;
-          display: flex;
-        background-color: #222222;
-        color: white;
-    flex-wrap: wrap;
-    }
-    
-    .box{
-       width:50%; 
-       position: relative;
-    }
-    
-    .text2{
-        font-family:'gothamlight';
-        margin-top: 100px;
-        margin-left: 110px;
-    
-    
-    }
-    .text3{
-        font-family: 'gothambook';
-        margin-top: 130px;
-        margin-left: -190px;
-        margin-bottom: 70px;
-        font-size: 25px;
-        text-transform: uppercase;
-    }
-    .text4{
-        font-family:'gothamlight' ;
-        margin-left: 110px;
-        margin-right: 110px;
-        margin-top: -120px;
-        line-height: 25px;
-    }
-    
-    
-    
-    .fulltext2{
-        width:50%;
-          display: flex;
-        background-color: #f3f3f3;
-        color: #222222;
-    
-    flex-wrap: wrap;
-    }
-    .box2{
-        width:50%; 
-        overflow: hidden;
-    }
-    
-    .b{
-        margin-top: 150px;
-        text-align: center;
-    
-    }
-    .letsblog{
-        font-family: 'gothambook';
-        text-transform: uppercase;
-        margin-top: -148px;
-        font-size: 35px;
-        text-align: center;
-        justify-content: center;
-    }
-    .phrasefinish{
-        font-family:'gothambook';
-        text-align: center;
-        margin-top: 150px;
-        font-size: 25px;
-    }
+
+@font-face {
+  font-family: 'gothambook';
+  src: url('font/gothambook-webfont.woff2') format('woff2'),
+  url('font/gothambook-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
