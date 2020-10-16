@@ -111,7 +111,7 @@ h4:hover{
     
 .background_color_red {
     background-color: rgb(210, 18, 66);
-    height: 700px;
+    height: 800px;
 }
 .we_are {
     height: 400px;
@@ -130,7 +130,7 @@ h4:hover{
     justify-content: center;
     width: 100%;
    position: absolute;
-   top: 890px;
+   top: 1100px;
     z-index: 1;
     text-transform: uppercase;
     font-family: gothamblack;
@@ -460,7 +460,7 @@ flex-wrap: wrap;
     margin-top: 150px;
     font-size: 25px;
 }
-}
+
 
 
 
