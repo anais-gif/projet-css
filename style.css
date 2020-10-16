@@ -111,7 +111,7 @@ h4:hover{
     
 .background_color_red {
     background-color: rgb(210, 18, 66);
-    height: 800px;
+    min-height: 800px;
 }
 .we_are {
     height: 400px;
