@@ -13,3 +13,8 @@ margin: 60px;
 display: block;
 
 }
+
+.zak{
+    flex-direction: column;
+    width: 100%;
+}

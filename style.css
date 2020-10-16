@@ -249,28 +249,20 @@ width: 20%; height: auto; float: left;
   flex-direction: row;
   align-items: center;
   background-color: #d21242;
-  height: 353px;
+  min-height: 353px;
   padding: 10px ;
 }
-.picture-left{
-  position: relative;
-  margin-left: 200px;
+.col
+{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  
 }
-.ki {
-  position: absolute;
-  margin-left:300px;
-  text-align: left;
 
-}
-.picture-leftt{
-  position: relative;
-  margin-left: 650px;
-}
-.ka {
-  position: absolute;
-  margin-left:1020px;
-  text-align: left;
-
+.toto3{
+    margin-left: 30px;
+    color: white;
 }
 .sim{
   display: flex;
@@ -279,16 +271,22 @@ width: 20%; height: auto; float: left;
   height: 109px;
   padding: 10px ;
 }
-.soh {
-  position: absolute;
-  margin-left:250px;
-  text-align: left;
-}
+
 .myr {
   position: absolute;
   margin-left:1200px;
   text-align: left;
 }
+
+.tag{
+
+    display: flex;
+    width: 50%;
+    justify-content: center;
+
+}
+
+
 .titreh4 {
     text-transform: uppercase;
     font-family:  gothamblack;
