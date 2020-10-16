@@ -7,9 +7,12 @@ ul{
 }
 .menu{
     float: right;
-width: 100px;
+width: 10%;
 height: auto;
 margin: 60px;
 display: block;
 
+}
+.le_titre_creatives{
+    top: 20%;
 }
